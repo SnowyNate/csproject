@@ -11,7 +11,7 @@ function playHihat() {
     });
   }
   
-  function clickhihat() {
+  function clickHihat() {
     var hihat = document.getElementById("hihat");
     hihat.setAttribute("src", "dependencies/hihatclosed.png");
     new Audio("dependencies/hihat.mp3").play();

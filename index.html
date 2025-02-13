@@ -14,11 +14,12 @@
   </head>
   <body>
     <script type="text/javascript" src="playSnare.js"></script>
-    <!-- input type="button" onclick="playSnare()" value="run external javascript" -->  
+    <script type="text/javascript" src="playBass.js"></script>
      <script>
       playSnare();
+      playBass();
      </script>
-    <button id="myButton" onclick="">Click me</button>
-      <img src="dependencies/snaredrumup.png" width="300" height="200" onclick="clickSnare();" />
+      <img id="snare" src="dependencies/snaredrumup.png" width="300" height="200" onclick="clickSnare();" />
+      <img id="bass" src="dependencies/bassdrumup.png" width="300" height="200" onclick="clickBass();" />
   </body>
 </html>

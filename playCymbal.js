@@ -1,4 +1,4 @@
-function playCymbal() {
+function playCymbal() { HEAD
     document.addEventListener("keydown", function (event) {
       if (event.key === "f" || event.key === "F") {
         var cymbal = document.getElementById("cymbal");

@@ -2,10 +2,10 @@ function playHihat() {
     document.addEventListener("keydown", function (event) {
       if (event.key === "e" || event.key === "E") {
         var hihat = document.getElementById("hihat");
-        hihat.setAttribute("src", "dependencies/hihatclosed.png");
-        new Audio("dependencies/hihat.mp3").play();
+        hihat.setAttribute("src", "dependencies/objects/hihat/hihatclosed.png");
+        new Audio("dependencies/sounds/hihat.mp3").play();
         setTimeout(function () {
-          hihat.setAttribute("src", "dependencies/hihatopen.png");
+          hihat.setAttribute("src", "dependencies/objects/hihat/hihatopen.png");
         }, 100);
       }
     });
@@ -13,10 +13,10 @@ function playHihat() {
   
   function clickHihat() {
     var hihat = document.getElementById("hihat");
-    hihat.setAttribute("src", "dependencies/hihatclosed.png");
-    new Audio("dependencies/hihat.mp3").play();
+    hihat.setAttribute("src", "dependencies/objects/hihat/hihatclosed.png");
+    new Audio("dependencies/sounds/hihat.mp3").play();
     setTimeout(function () {
-      hihat.setAttribute("src", "dependencies/hihatopen.png");
+      hihat.setAttribute("src", "dependencies/objects/hihat/hihatopen.png");
     }, 100);
   }
   

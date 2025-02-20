@@ -1,6 +1,6 @@
 function playCymbal() {
     document.addEventListener("keydown", function (event) {
-      if (event.key === "o" || event.key === "o") {
+      if (event.key === "o" || event.key === "O") {
         var cymbal = document.getElementById("cymbal");
         cymbal.setAttribute("src", "dependencies/objects/crashcymbal/crashcymbaldown.png");
         new Audio("dependencies/sounds/crashcymbal.wav").play();

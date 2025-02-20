@@ -1,4 +1,4 @@
-#myVideo {
+#homeBackground {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -8,22 +8,20 @@
   z-index: -1;
 }
 
-
-
-
 .content {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
-  color: white; 
+  transform: translate(-50%, -50%);
+  color: white;
   text-align: center;
-  z-index: 1; 
+  z-index: 1;
   font-size: 50px;
   font-family: sans-serif;
 }
 
-h1, p {
+h1,
+p {
   margin: 0;
   padding: 10px;
 }
@@ -46,7 +44,7 @@ li a {
   text-align: center;
   padding: 20px 30px;
   text-decoration: none;
-  top:0%;
+  top: 0%;
   font-size: 20px;
 }
 

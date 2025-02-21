@@ -22,8 +22,13 @@
 	font-family: "Montserrat";
 }
 
-h1,
-p {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+}
+
+h1, p {
 	margin: 0;
 	padding: 10px;
 }

@@ -1,32 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+}
+
 body {
 	background: hsla(0, 0%, 0%, 1);
-	background: linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(236, 68%, 20%, 1) 60%);
-	background: -moz-linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(236, 68%, 20%, 1) 60%);
-	background: -webkit-linear-gradient(0deg, hsla(0, 0%, 0%, 1) 0%, hsla(236, 68%, 20%, 1) 60%);
+	background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(236, 68%, 20%, 1) 60%);
+	background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(236, 68%, 20%, 1) 60%);
+	background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 0%, hsla(236, 68%, 20%, 1) 60%);
 	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#101454", GradientType=1);
 }
 
 .content {
 	position: absolute;
-	top: 50%;
+	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
 	text-align: center;
 	z-index: 1;
-	font-size: 50px;
+	font-size: 30px;
 	font-family: "Montserrat";
 }
 
-h1,
-p {
+h1, p {
 	margin: 0;
 	padding: 10px;
 }
 
-ul {
+.navul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -34,11 +39,11 @@ ul {
 	background-color: #ffffff00;
 }
 
-li {
+.navli {
 	float: right;
 }
 
-li a {
+.navli a {
 	display: block;
 	color: rgb(255, 255, 255);
 	text-align: center;
@@ -49,6 +54,11 @@ li a {
 	font-family: "Montserrat";
 }
 
-li a:hover {
+.navli a:hover {
 	background-color: #1bb828;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
 }

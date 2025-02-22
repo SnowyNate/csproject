@@ -12,6 +12,9 @@
 	font-family: "Montserrat";
 }
 
+html {
+	cursor:url('../dependencies/dillon.png'), auto;
+}
 
 ul {
 	list-style-type: none;

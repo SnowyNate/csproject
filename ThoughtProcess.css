@@ -22,15 +22,19 @@ h3,
 h4,
 h5 {
   font-size: 25px;
-  margin: 60px;
+  margin: 100px;
 }
 
 p {
-  margin: 60px;
+  margin: 100px;
 }
 
 h2,
-h4,
+h4 {
+    float: left;
+    width: 25%;
+}
+
 .h2-stuff,
 .h4-stuff {
   float: left;
@@ -47,15 +51,12 @@ h5,
 }
 
 
-.content {
-  margin: 20px;
-}
 
 body {
     background-image: url('dependencies/ThoughtProcessBackground.jpg');
     background-size: cover;
     background-position: center;
-    color: rgb(92, 126, 106)
+    color: rgb(93, 126, 92)
 }
 
 

@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.h1-stuff,
+h1 {
+  text-align: center;
+}
+
+.h1-stuff {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-size: 25px;
+  margin: 100px;
+}
+
+p {
+  margin: 100px;
+}
+
+h2,
+h4 {
+    float: left;
+    width: 25%;
+}
+
+.h2-stuff,
+.h4-stuff {
+  float: left;
+  width: 25%;
+}
+
+h3,
+h5,
+.h3-stuff,
+.h5-stuff {
+  float: right;
+  width: 25%;
+  text-align: right;
+}
+
+
+
+body {
+    background-image: url('dependencies/ThoughtProcessBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(93, 126, 92)
+}
+
+

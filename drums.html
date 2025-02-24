@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="drums.css" />
+   
   </head>
   <body>
     <ul>
@@ -22,33 +23,49 @@
       playHihat();
       playCymbal();
     </script>
-    <img
-      id="snare"
-      src="dependencies/objects/snaredrum/snaredrumup.png"
-      width="300"
-      height="200"
-      onclick="clickSnare();"
-    />
-    <img
-      id="bass"
-      src="dependencies/objects/bassdrum/bassdrumup.png"
-      width="300"
-      height="200"
-      onclick="clickBass();"
-    />
-    <img
-      id="hihat"
-      src="dependencies/objects/hihat/hihatopen.png"
-      width="300"
-      height="200"
-      onclick="clickHihat();"
-    />
-    <img
-    id="cymbal"
-    src="dependencies/objects/crashcymbal/crashcymbalup.png"
-    width="300"
-    height="200"
-    onclick="clickCymbal();"
-  />
+    <div class="drum-container">
+      <div class="drum-item">
+        <img
+          id="snare"
+          src="dependencies/objects/snaredrum/snaredrumup.png"
+          width="300"
+          height="200"
+          onclick="clickSnare();"
+        />
+        <h1>K</h1>
+      </div>
+      <div class="drum-item">
+        <img
+          id="bass"
+          src="dependencies/objects/bassdrum/bassdrumup.png"
+          width="300"
+          height="200"
+          onclick="clickBass();"
+        />
+        <h1>D</h1>
+      </div>
+      <div class="drum-item">
+        <img
+          id="hihat"
+          src="dependencies/objects/hihat/hihatopen.png"
+          width="300"
+          height="200"
+          onclick="clickHihat();"
+        />
+        <h1>E</h1>
+      </div>
+      <div class="drum-item">
+        <img
+          id="cymbal"
+          src="dependencies/objects/crashcymbal/crashcymbalup.png"
+          width="300"
+          height="200"
+          onclick="clickCymbal();"
+        />
+        <h1>O</h1>
+      </div>
+    </div>
+    <h6 class="note">
+      You can also click the instruments directly
+      </h6>
   </body>
-</html>

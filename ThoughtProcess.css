@@ -15,54 +15,63 @@ h1 {
   font-size: 40px;
 }
 
-h2, h3, h4, h5 {
+h2 {
   font-size: 25px;
-  margin: 100px;
-}
-
-h2, h4 {
-    float: left;
-    width: 25%;
-}
-
-.h2-stuff,
-.h4-stuff {
-  float: left;
-  width: 25%;
-}
-
-h3,
-h5,
-.h3-stuff,
-.h5-stuff {
-  float: right;
-  width: 25%;
-  text-align: right;
+  margin: 100px 0 0 0;
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #ffffff00;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff00;
 }
 
 li {
-	float: right;
+  float: right;
 }
 
 li a {
-	display: block;
-	color: rgb(255, 255, 255);
-	text-align: center;
-	padding: 20px 30px;
-	text-decoration: none;
-	top: 0%;
-	font-size: 20px;
-	font-family: "Montserrat";
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat";
 }
 
 li a:hover {
-	background-color: #1bb828;
+  background-color: #1bb828;
+}
+
+.content-container {
+  width: 80%;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.content img {
+  width: 25%;
+  margin-left: 20px;
+}
+
+.content.reverse {
+  flex-direction: row-reverse;
+}
+
+.content.reverse img {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.content p {
+  width: 75%
 }

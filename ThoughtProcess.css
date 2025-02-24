@@ -1,37 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat";
-  font-weight: 500;
-  background-image: url('dependencies/thoughtProcess/Untitled.png');
+  background-image: url('dependencies/thoughtProcess/background.png');
   background-size: cover;
   background-position: center;
   color: #ffffff;
+  font-weight: 500;
 }
 
-.h1-stuff,
 h1 {
   text-align: center;
-}
-
-.h1-stuff {
-  font-size: 20px;
-}
-
-h1 {
   font-size: 40px;
 }
 
-h2,
-h3,
-h4,
-h5 {
+h2 {
   font-size: 25px;
-  margin: 100px;
+  margin: 100px 0 0 0;
 }
 
-p {
-  margin: 100px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff00;
 }
 
 li {
@@ -69,13 +64,15 @@ li a:hover {
   margin-left: 20px;
 }
 
-
-
-body {
-    background-image: url('dependencies/ThoughtProcessBackground.jpg');
-    background-size: cover;
-    background-position: center;
-    color: rgb(93, 126, 92)
+.content.reverse {
+  flex-direction: row-reverse;
 }
 
+.content.reverse img {
+  margin-left: 0;
+  margin-right: 20px;
+}
 
+.content p {
+  width: 75%
+}
